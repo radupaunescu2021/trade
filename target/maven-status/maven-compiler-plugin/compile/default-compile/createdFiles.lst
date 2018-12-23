@@ -1,0 +1,4 @@
+org/trade/api/HttpRest.class
+org/trade/api/NodeRepo.class
+org/trade/api/App.class
+org/trade/api/TradeNode.class

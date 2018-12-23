@@ -1,0 +1,6 @@
+CREATE TABLE `trade_db`.`tree` (
+  `ID` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NULL,
+  `PID` INT NULL,
+  `height` INT NULL,
+PRIMARY KEY (`ID`));
