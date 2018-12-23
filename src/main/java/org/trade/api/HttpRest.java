@@ -21,7 +21,7 @@ public class HttpRest {
 		
 	}
 	
-	@PostMapping("/changeParent/{node}/{parent}")
+	@PostMapping("/changeParent/{nodeId}/{parentId}")
 	public String changeParent(@PathVariable("node") int node,@PathVariable("parent") int parent) {
 		//return "change parent of node " + node +"with new parent " + parent;
 		return repo.updateParentOfChild(node, parent);
