@@ -22,7 +22,7 @@ public class HttpRest {
 	}
 	
 	@PostMapping("/changeParent/{nodeId}/{parentId}")
-	public String changeParent(@PathVariable("node") int node,@PathVariable("parent") int parent) {
+	public String changeParent(@PathVariable("nodeId") int node,@PathVariable("parentId") int parent) {
 		//return "change parent of node " + node +"with new parent " + parent;
 		return repo.updateParentOfChild(node, parent);
 	}
